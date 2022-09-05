@@ -8,18 +8,19 @@
 //Accomulator use two parameters.
 const marks = [1, 2, 3, 4, 5, 6];
 const total = marks.reduce((sum, current) => sum + current, 0);
-console.log(total);
+// console.log(total);
 
 
 
 //.reduce() for multiline.
 const totalMarks = marks.reduce((sum, current) => {
-   console.log(sum, current);
+//    console.log(sum, current);
     return sum + current
     
 }, 0);
  
-console.log(totalMarks);
+// console.log(totalMarks);
+
 
 
 
